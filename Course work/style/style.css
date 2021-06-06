@@ -1,0 +1,322 @@
+@font-face{
+	font-family: helveticaNeue;
+	src: url("../resources/fonts/HelveticaNeue-MediumCond.otf");
+	
+}
+
+@media (min-width: 800px){
+body{
+	margin: 0;
+	
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1900px;
+	/*border: 1px solid black;*/
+}
+
+.navbar {
+	margin: 0 auto;
+	font-family: helveticaNeue;
+	display: block;
+	padding: 0;
+}
+
+/*.navbarColumnLeft{
+	float: left;
+	width: 60%;
+	display: block;
+	margin: 0;
+    padding: 0;  
+    background-color: red;
+}*/
+
+.navbarColumnRight{
+	/*float: right;*/
+	width: 100%;
+	/*display: block;*/
+	margin: 0;
+    padding: 0;
+}
+
+.backgroundImageContainer{
+	display: block;
+	text-align: center;
+}
+
+.backgroundImage {
+
+	max-width:100%; 
+	max-height:100%;
+}
+
+.aboutImage {
+
+
+	max-width:100%; 
+	max-height:100%;
+
+
+}
+
+.content{
+
+	
+	
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about {
+	/*padding-top: 100pt;*/
+	text-align: center;	
+  	/*display: block;*/
+  	clear: both;
+  	/*border: 1px solid black;*/
+}
+
+.team {
+	/*margin-top: 200px;*/
+	/*height: 400px;*/
+	/*background-color: green;*/
+	/*border: 1px solid black;*/
+}
+
+.contacts {
+	height: 400px;
+	/*background-color: blue;*/
+}
+.columnLeft {
+  float: left;
+  width: 50%;
+  text-align: right;
+  /*height: 300px; /* Should be removed. Only for demonstration */*/
+}
+.columnRight {
+  float: left;
+  width: 50%;
+  text-align: left;
+  font-family: helveticaNeue;
+  /*height: 300px; /* Should be removed. Only for demonstration */*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  /*padding: 0;*/
+  padding-right: 20%;
+  overflow: hidden;
+
+  /*background-color: #333;*/
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+
+.h{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25%;
+}
+
+#lorem{
+	padding : 0;
+	line-height : 0px;
+    /*margin : 0;*/
+	width: 36em;
+	margin: 0 5%;
+	max-width: 100%;
+	/*line-height: 0.5;*/
+	font-size: 18px;
+	 clear: both;
+}
+#lorem h2{
+	/*line-height: 0.5;*/
+	padding-bottom: 5%;
+}
+#endOfArticle{
+	margin-top: 20%;
+
+    /*margin: 0;*/
+    /*padding: 0;*/
+    padding-right: 20%;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+#endOfArticle h3{
+	float: left;
+	display: block;
+ 	max-width: 33.3%;
+  	text-align: center;
+  	padding: 2% 7%;
+
+}
+
+#first{
+	/*margin-top: 500px;*/
+	width: 50%
+}
+#sec{
+	width: 50%;
+	/*margin-top: 750px;*/
+}
+
+.sectionSeparator{
+	visibility: hidden; 
+	padding-top: 150px;
+}
+
+.teamLeftCol{
+	float: left;
+	margin: 0 auto;
+	width: 33.3%;
+	/*background-color: red;*/
+	/*height: 200px;*/
+	text-align: right;
+}
+
+.teamMidCol{
+	float: left;
+	margin: 0 auto;
+ 	/*background-color: green;*/
+ 	width: 33.3%;
+ 	/*height: 200px;*/
+ 	text-align: center;
+}
+
+.teamRightCol{
+	float: left;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+	width: 33.3%;
+		
+		text-align: left;
+}
+.teamImageOne {
+
+	max-width:100%; 
+	max-height:100%;
+	
+}
+.teamImageTwo {
+
+	max-width:100%; 
+	max-height:100%;
+	
+}
+.teamImageThree {
+
+	max-width:100%; 
+	max-height:100%;
+	
+}
+
+.teamHeading{
+	font-family: helveticaNeue;
+	text-align: center;
+}
+
+.teamArticle{
+	text-align: left;
+	font-family: helveticaNeue;
+	text-align: left; 
+	margin: 0 30%;
+	width: 50%
+	/*padding-left: 30%;*/
+}
+
+.teamArticle h3{
+	padding-left: 20%;
+}
+
+.teamArticle p {
+ 
+    padding : 0;
+    margin : 0;
+ 
+}
+input{
+	display: block;
+}
+
+.footer{
+	height: 95px;
+	background-color: #717171;
+	/*margin: 0 auto;*/
+	text-align: center;
+
+}
+.footerElmt{
+	float: left;
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 35px 10%;
+  max-width: 33.3%;
+  text-decoration: none;
+  font-family: helveticaNeue;
+
+}
+#footerCenter{
+	/*text-align: center;*/
+	padding-left: 5%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#inputForm{
+	width: 50%;
+	margin: 0 auto;
+	font-family: helveticaNeue;
+	text-align: center;
+
+}
+.input{
+	border-top: hidden;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: #717171;
+	width: 50%;
+}
+
+.formSpan{
+	float: left; 
+	width: 40%; 
+	text-align: right; 
+	padding-right: 20px;
+}
+}
+
+@media (min-width: 200px){
+	body {
+		
+	}
+}
+
+@media (min-width: 576px){
+	li {
+		/*float: none;*/
+	}
+}
